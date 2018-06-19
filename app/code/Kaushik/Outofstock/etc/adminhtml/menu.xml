@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
-    <menu>
-        <add id="Kaushik_Outofstock::parent" title="Outofstock" module="Kaushik_Outofstock" sortOrder="100" resource="Kaushik_Outofstock::parent"/>
-        <add id="Kaushik_Outofstock::index" title="Outofstock Index" module="Kaushik_Outofstock" sortOrder="10" action="outofstock/index" resource="Kaushik_Outofstock::index" parent="Kaushik_Outofstock::parent"/>
-		<add id="Kaushik_Outofstock::outofstock" title="Kaushik Outofstock" module="Kaushik_Outofstock" sortOrder="20" parent="Kaushik_Outofstock::parent" action="outofstock/outofstock" resource="Kaushik_Outofstock::outofstock"/>
-
-    </menu>
-</config>
